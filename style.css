@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(21, 161, 161);
+    color: rgb(2, 26, 8);
+}
+/**** Base Elements ****/
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.heading{
+    margin-left: 450px;
+    margin-top: 40px;
+    color: rgb(183, 255, 221);
+    text-decoration: underline;
+}
+/**** Tellers box ****/
+#tellerBox {
+    display: flex;   
+    flex-direction: row;
+}
+.tellers {
+    height: 90px; width: 140px;
+    border: 2px solid rgb(255, 248, 248);
+    background-color: rgb(206, 233, 144);
+    border-radius: 5px;
+    margin-top: 60px;
+    margin-left: 50px;
+    padding-left: 65px;
+    padding-top: 65px;
+    color: rgb(2, 26, 8);
+    font-size: 20px;
+}
+
+/**** Clients box ****/
+#clientBox {
+    display: flex;
+    flex-direction: row;
+}
+.queues {
+    height: 185px;
+    width: 45px;
+   margin-top: 15px;
+   background-color: aqua;
+    border: 2px solid rgb(109, 0, 0);
+}
+
+.client {
+    font-size: 20px;
+    text-align: center;
+    color: rgb(2, 26, 8);
+background-color: aliceblue;
+    height: 30px;
+    width: 30px;
+    margin: 7px;
+    border-radius: 70%;
+    border: 2px solid red;
+}
+
+/**** Button box ****/
+#newClock-div {
+    font-size: 30px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: aqua;
+    color: rgb(2, 26, 8);
+}
+#queue1{
+    margin-left: 130px;
+}
+#queue2{
+    margin-left: 210px;
+}
+#queue3{
+    margin-left: 210px;
+}
+#queue4{
+    margin-left: 210px;
+}
